@@ -9,7 +9,7 @@ This application has three files:
 *  template.html: the view for every task and deal with the data of the answers.
 *  tutorial.html: a simple tutorial for the volunteers.
 
-![alt screenshot](http://micropasts.org/wp-content/uploads/2016/05/boxME2-e1464338644182.jpg)
+![alt screenshot](http://micropasts.org/wp-content/uploads/2016/12/Screen-Shot-2016-12-05-at-21.46.29.png)
 
 Funded by
 =========
