@@ -286,13 +286,13 @@ a.ol-full-screen-true:after {
 
 <script>
 function loadUserProgress() {
-    pybossa.userProgress('MuseoEgizio1').done(function(data){
+    pybossa.userProgress('Egizio2').done(function(data){
     	
     	console.log('Tasks done so far: ' + data.done);
     	
-        if ((data.done == 1) && ($.cookie('surveyjMuseoEgizio1') === undefined)){
+        if ((data.done == 1) && ($.cookie('surveyEgizio2') === undefined)){
            $("#survey").modal('show');
-           $.cookie('surveyMuseoEgizio1', 'shown', { path: '/'});
+           $.cookie('surveyEgizio2', 'shown', { path: '/'});
         }
         
         var pct = Math.round((data.done*100)/data.total);
@@ -662,5 +662,5 @@ pybossa.presentTask(function(task, deferred) {
         
 });
 
-pybossa.run('MuseoEgizio1');
+pybossa.run('Egizio2');
 </script>
